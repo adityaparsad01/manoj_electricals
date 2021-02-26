@@ -6,6 +6,12 @@ import {
   NavLink
 } from "react-router-dom";
 
+import { SiAzurefunctions } from "react-icons/si";
+import { AiFillHome } from "react-icons/ai";
+import { IoIosContact } from "react-icons/io";
+import { FcAbout } from "react-icons/fc";
+import { GrServices } from "react-icons/gr";
+
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Services from "./pages/services";
@@ -18,7 +24,7 @@ export default function App() {
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <div className="container-fluid">
             <NavLink className="navbar-brand" to="/">
-              Manoj Electricals
+              Manoj Electricals <SiAzurefunctions />
             </NavLink>
             <button
               className="navbar-toggler"
@@ -44,7 +50,7 @@ export default function App() {
                     aria-current="page"
                     to="/"
                   >
-                    Home
+                    <AiFillHome /> Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -54,6 +60,7 @@ export default function App() {
                     className="nav-link"
                     to="/about"
                   >
+                    <FcAbout />
                     About Us
                   </NavLink>
                 </li>
@@ -64,6 +71,7 @@ export default function App() {
                     className="nav-link"
                     to="/services"
                   >
+                    <GrServices />
                     Services
                   </NavLink>
                 </li>
@@ -74,6 +82,7 @@ export default function App() {
                     className="nav-link"
                     to="/contact"
                   >
+                    <IoIosContact />
                     Contact Us
                   </NavLink>
                 </li>

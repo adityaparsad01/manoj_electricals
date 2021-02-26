@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import online from "../img/online.svg";
-import HomeServices from "../img/HomeServices.svg";
+import img1 from "../img/img1.svg";
 import repair from "../img/repair.svg";
 
 function home() {
@@ -41,7 +41,10 @@ function home() {
             ></button>
           </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div
+              style={{ height: "500px", width: "500" }}
+              class="carousel-item active"
+            >
               <img src={online} class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
@@ -50,7 +53,7 @@ function home() {
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div style={{ height: "500px" }} class="carousel-item">
               <img src={repair} class="d-block w-100" alt="..." />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Second slide label</h5>
@@ -59,8 +62,13 @@ function home() {
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src={HomeServices} class="d-block w-100" alt="..." />
+            <div style={{ height: "500px" }} class="carousel-item">
+              <img
+                style={{ height: "100" }}
+                src={img1}
+                class="d-block w-100"
+                alt="..."
+              />
               <div class="carousel-caption d-none d-md-block">
                 <h5>Third slide label</h5>
                 <p>
