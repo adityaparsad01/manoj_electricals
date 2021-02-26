@@ -60,8 +60,7 @@ export default function App() {
                     className="nav-link"
                     to="/about"
                   >
-                    <FcSms style={{ color: "#ffffff" }} />
-                    About Us
+                    <FcSms /> About Us
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -71,8 +70,7 @@ export default function App() {
                     className="nav-link"
                     to="/services"
                   >
-                    <FcServices style={{ color: "#ffffff" }} />
-                    Services
+                    <FcServices /> Services
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -82,8 +80,7 @@ export default function App() {
                     className="nav-link"
                     to="/contact"
                   >
-                    <FcReading style={{ color: "#ffffff" }} />
-                    Contact Us
+                    <FcReading /> Contact Us
                   </NavLink>
                 </li>
               </ul>
