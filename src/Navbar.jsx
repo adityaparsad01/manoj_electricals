@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 
 import { SiAzurefunctions } from "react-icons/si";
-import { AiFillHome } from "react-icons/ai";
-import { IoIosContact } from "react-icons/io";
-import { FcAbout } from "react-icons/fc";
-import { GrServices } from "react-icons/gr";
+import { FcHome } from "react-icons/fc";
+import { FcSms } from "react-icons/fc";
+import { FcReading } from "react-icons/fc";
+import { FcServices } from "react-icons/fc";
 
 import About from "./pages/about";
 import Contact from "./pages/contact";
@@ -50,7 +50,7 @@ export default function App() {
                     aria-current="page"
                     to="/"
                   >
-                    <AiFillHome /> Home
+                    <FcHome /> Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -60,7 +60,7 @@ export default function App() {
                     className="nav-link"
                     to="/about"
                   >
-                    <FcAbout />
+                    <FcSms style={{ color: "#ffffff" }} />
                     About Us
                   </NavLink>
                 </li>
@@ -71,7 +71,7 @@ export default function App() {
                     className="nav-link"
                     to="/services"
                   >
-                    <GrServices />
+                    <FcServices style={{ color: "#ffffff" }} />
                     Services
                   </NavLink>
                 </li>
@@ -82,7 +82,7 @@ export default function App() {
                     className="nav-link"
                     to="/contact"
                   >
-                    <IoIosContact />
+                    <FcReading style={{ color: "#ffffff" }} />
                     Contact Us
                   </NavLink>
                 </li>
